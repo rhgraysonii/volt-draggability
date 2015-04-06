@@ -1,6 +1,14 @@
-# Volt::Draggability
+# Volt-Draggability
+Dragability.js for Volt.
 
-TODO: Write a gem description
+```JAVASCRIPT
+var $draggable = $('.draggable').draggabilly({
+  // options...
+})
+
+```
+
+Add shiz draggle
 
 ## Installation
 
@@ -16,9 +24,16 @@ Or install it yourself as:
 
     $ gem install volt-draggability
 
+And then in `dependencies.rb`
+
+```RUBY
+component 'draggability'
+```
+
 ## Usage
 
-TODO: Write usage instructions here
+see the [Documentation](http://draggabilly.desandro.com/)
+
 
 ## Contributing
 
